@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" />
+      <div class="error" id="nameError"></div>
+
+      <input type="email" id="email" placeholder="Your Email" />
+      <div class="error" id="emailError"></div>
+
+      <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+      <div class="error" id="messageError"></div>
+
+      <button type="submit" id="submitBtn">Submit</button>
+      <div class="success" id="successMsg"></div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
